@@ -40,8 +40,8 @@ bool test()
     rKey.RecoverCompact(hashMsg, csign);
     cout << "rKey = " << rKey.GetKeyId().ToString() << endl;
 
-    bool aresult = (rKey == pubkey ? true :false);
-    cout << "aresult = " << aresult << endl;
+    bool recoverable = (rKey == pubkey ? true :false);
+    cout << "recoverable = " << recoverable << endl;
 
 
     return true;
@@ -54,5 +54,5 @@ bool test()
 hello test ok !
 pubKey = 079b9296a00a2b655787fa90e66ec3cde4bf1c8c
 rKey = 079b9296a00a2b655787fa90e66ec3cde4bf1c8c
-aresult = 1
+recoverable = 1
 ```

@@ -1,4 +1,4 @@
-// input code
+// source code
 bool test()
 {
     cout << "hello test ok !" << endl;

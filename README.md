@@ -1,4 +1,4 @@
-# Get PubKey from hash and sign C++
+# Obtain PubKey from signature (C++)
 
 ## service environment：
      WaykiChain:3.2.1  

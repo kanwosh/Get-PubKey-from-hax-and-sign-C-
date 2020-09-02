@@ -1,6 +1,6 @@
 # Obtain PubKey from signature (C++)
 
-## service environment：
+## dependency：
      WaykiChain:3.2.1  
      download url: https://github.com/WaykiChain/WaykiChain.git
 
@@ -10,9 +10,9 @@
 ## test step
     1. Get pubKey named Key1 from privateKey
     2. Get pubKey named Key2 from hash and sign
-    3. To compare Key1 and Key2
+    3. Compare Key1 and Key2
 
-## input code
+## source code
 ```
 bool test()
 {
@@ -48,7 +48,7 @@ bool test()
 }
 
 ```
-## output
+## result
 
 ```
 hello test ok !
